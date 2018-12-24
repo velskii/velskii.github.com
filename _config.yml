@@ -5,7 +5,7 @@ collections:
     output: true
 
 defaults:
-# _pages
+  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -18,14 +18,20 @@ defaults:
       type: "authors"
     values:
       layout: "author"
-      # _posts
+  # _posts
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      # /
+  # /
   - scope:
       path: ""
     values:
       layout: "default"
+
+
+permalink: pretty
+
+include:
+  - _pages

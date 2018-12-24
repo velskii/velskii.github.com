@@ -1,4 +1,8 @@
-title: 部落格
+locale                    : "en-US"
+title                     : 部落格
+permalink                 : pretty
+include:
+  - _pages
 
 collections:
   authors:
@@ -29,9 +33,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-
-permalink: pretty
-
-include:
-  - _pages

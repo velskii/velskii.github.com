@@ -1,8 +1,9 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Contact
-  link: /contact.html
-- name: Staff
-  link: /staff.html
+main:
+  - name: Home
+    link: /
+  - name: About
+    link: /about.html
+  - name: Contact
+    link: /contact.html
+  - name: Staff
+    link: /staff.html

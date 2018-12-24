@@ -1,5 +1,11 @@
 locale                    : "en-US"
-title                     : 部落格
+title                     : "木下悠人"
+author                    : "velskii"
+github_username           : "velskii"
+rss                       : "rss"
+show_excerpts             : true
+email                     : "velski@yahoo.com"
+description               : "this is a simple blog website"
 permalink                 : pretty
 include:
   - _pages
